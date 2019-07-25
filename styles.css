@@ -1,0 +1,109 @@
+body {
+    margin: 30px 30px;
+    padding: 5px;
+    background-color: lightseagreen;
+}
+/* MAIN BORDER OF THE ENTIRE PAGE */
+#mainBorder {
+    border: 2px lime solid;
+    outline: 1px white solid;
+    background-color: black;
+    margin-bottom: 15px;
+}
+/* TEXT:  "ADDING POLYNOMIALS WITH IMAGINARY TERMS" */
+h1 {
+    font-size: 2rem;
+    color: aqua;
+    letter-spacing: 4px;
+    font-family: 'Bilbo', cursive;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+}
+/* TEXT FORMATTING FOR ALL PARAGRAPHS */
+.para1, ol, ul {
+    font-size: 2rem;
+    color: aqua;
+    letter-spacing: 4px;
+    font-family: 'Bilbo';
+    text-align: left;
+    text-shadow: 1px 1px 1px white;
+    margin-right: 30px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+/* TEXT INPUT BOXES FOR PROBLEMS VALUES */
+#myA2, #myB2, #myC2, #myD2,
+#myA, #myB, #myC, #myD {
+    width: 13.2%;
+    height: 70px;
+    border: 2px red solid;
+    color: black;
+    background-color: aqua;
+    padding: 5px;
+    margin-left: 18px;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 2.5rem;
+    font-family: 'Bilbo', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: bold;
+}
+/* BORDER BACKGROUND:   USER TEXT INPUT BOXES AND RED TEXT INSIDE */
+.para2 {
+    width: 55%;
+    height: 30%;
+    margin-right: 22.5%;
+    margin-left: 22.5%;
+    background-color: black;
+    border: 2px lime solid;
+    color: aqua;
+    font-size: 3rem;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    padding: 0px 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+/* SUBMIT BUTTON */
+#myBtn {
+    width: 20%;
+    height: auto;
+    font-size: 2rem;
+    font-family: 'Amatic SC', cursive;
+    color: aqua;
+    letter-spacing: 2px;
+    padding: 15px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px lime solid;
+    background-color: black;
+    margin-top: 20px;
+}
+/* OUTPUT ANSWER TEXT AND CONTAINER */
+#demo, #demo2 {
+    width: 20%;
+    height: 70px;
+    font-size: 1.8rem;
+    font-family: 'Amatic SC', cursive;
+    color: lime;
+    letter-spacing: 2px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px lime solid;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    font-size: 1.2rem;
+    color: lime;
+    font-family: 'Bilbo';
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px black;
+}

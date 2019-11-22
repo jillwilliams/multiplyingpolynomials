@@ -8,116 +8,64 @@
     <link rel="stylesheet" HREF="./styles.css">
 </head>
 <body>
-    <div type="container" id="mainBorder">
-        <h1>
-            Multiplying Complex Numbers
-        </h1>
-    </div>
-    <div id="mainBorder">
-        <p class="para1">
-            To multiply complex numbers, enter the equation into the boxes below.
-            <br>
-            The types of problems this program will solve are: 
-                <ol>
-                    <li>
-                        &nbsp(5 + 3i)(3 + 2i)
-                    </li>
-                    <li>
-                        &nbsp(7 - 6i)(4 + 8i) 
-                    </li>
-                </ol>
-        </p>
-        <p class="para1">
-            <ul>
-                <li>
-                    Once you have entered in your values, click the submit button for the solution.
-                </li>
-                <li>
-                    Make sure to enter your numbers into the boxes as it appears written above, in order from left to right. 
-                </li>
-                <li>
-                    The term with the "i" should be entered second for each binomial, and the constant should be entered first for each binomial. 
-                </li>
-                <li>
-                    Enter your numbers below.
-                </li>
-            </ul>
-        </p>
-    </div>
-    <div class="para2">
-        <p>
-            (<input type="numeric" id="myA">  +
-            <input type="numeric" id="myB">i )  
-            (<input type="numeric" id="myC">  + 
-            <input type="numeric" id="myD">i )  
-        </p>
-    </div>
-    <div>
-        <button 
-            type="submit" id="myBtn" onclick="answer( )">
-            SUBMIT
-        </button>
-    </div>
-    <p id="demo"></p>
-
-<!-- BEGIN DIVIDING PORTION -->
-    <div type="container" id="mainBorder">
-            <h1>
-                Dividing Complex Numbers
-            </h1>
-        </div>
-        <div id="mainBorder">
-            <p class="para1">
-                To divide complex numbers, enter the equation into the boxes below.
-                <br>
-                The types of problems this program will solve are: 
-                    <ol>
-                        <li>
-                            &nbsp(5 + 3i)/(3 + 2i)
-                        </li>
-                        <li>
-                            &nbsp(7 - 6i)/(4 + 8i)
-                        </li>
-                    </ol>
-            </p>
-            <p class="para1">
-                <ul>
-                    <li>
-                        Once you have entered in your values, click the submit button for the solution.
-                    </li>
-                    <li>
-                        Make sure to enter your numbers into the boxes as it appears written above, in order from left to right. 
-                    </li>
-                    <li>
-                        The term with the "i" should be entered second for each binomial, and the constant should be entered first for each binomial. 
-                    </li>
-                    <li>
-                        Enter your numbers below.
-                    </li>
-                </ul>
-            </p>
-        </div>
-        <div class="para2">
-            <p>
-                (<input type="text" id="myA2">  +
-                <input type="text" id="myB2">)  i  -   
-                (<input type="text" id="myC2">  + 
-                <input type="text" id="myD2">)  i
-            </p>
-        </div>
-        <div>
-            <button 
-                type="submit" id="myBtn" onclick="answer2( )">
-                SUBMIT
-            </button>
-        </div>
-        <p id="demo2"></p>
-        <footer>
-            ©2019 ALL THINGS MATH<br>ALL RIGHTS RESERVED
-    </footer>
-    <script 
-        src="./script.js" 
-        type="text/javascript">
-    </script>
+    <h1>
+        Multiplying Complex Numbers
+    </h1>
+    <p>
+        The types of problems this program will solve are: 
+        <ol>
+            <li>
+                &nbsp(5 + 3i)(3 + 2i)
+            </li>
+            <li>
+                &nbsp(7 - 6i)(4 + 8i) 
+            </li>
+        </ol>
+    </p>
+    <hr>
+    <p>
+        To multiply two binomials together, use FOIL.<br>  
+        (5 + 3i)(3 + 2i)<br>
+        F  +  O  +  I  +  L<br>
+        15 + 10i + 9i + 6i<sup>2</sup><br>
+        15 + 19i + 6i<sup>2</sup><br>
+        15 + 19i + 6(-1)<br>
+        15 + 9i - 6<br>
+        15 - 6 + 9i<br>
+        9 + 9i *Answer
+    </p>
+    <hr>
+    <p>
+        Multiply: (7 - 6i)(4 + 8i)<br>
+        F  +  O  +  I  +  L<br>
+        28 + 56i + -24i + -48i<sup>2</sup><br>
+        28 + 32i - 48i<sup>2</sup><br>
+        28 + 32i - 48(-1)<br>
+        28 + 32i + 48<br>
+        28 + 48 + 32i<br>
+        76 + 32i * Answer<br>
+    </p>
+    <hr>
+    <p>
+        Multiply: (4 - 2i)(5 + 3i)<br>
+        F  +  O  +  I  +  L<br>
+        20 + 12i + -10i + -6i<sup>2</sup><br>
+        20 + 2i + -6i<sup>2</sup><br>
+        20 + 2i - 6i<sup>2</sup><br>
+        20 + 2i - 6(-1)<br>
+        20 + 2i + 6<br>
+        20 + 6 + 2i<br>
+        26 + 2i  *Answer
+    </p>
+    <hr>
+    <p>
+        Rule:<br>
+        The last term in FOIL always ends with i<sup>2</sup>.<br>
+        In previous lessons it was established that i<sup>2</sup> is always equal to -1. When simplifying the expression you must replace i<sup>2</sup> with -1. Then, continue combining like terms.<br>
+        The constant term must come first in the answer, then the variable term with "i" in it.<br>
+    </p>
+    <hr>
+    <footer>©2019 All Things Math</footer>
+    <script src="./script.js"></script>
 </body>
 </html>

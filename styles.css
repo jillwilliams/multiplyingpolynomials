@@ -31,6 +31,10 @@ h1 {
     margin-left: 50px;
     margin-top: 15px;
 }
+iframe {
+    margin: 15px 33%;
+    border: 2px black solid;
+}
 footer {
     text-align: center;
     color: black;
